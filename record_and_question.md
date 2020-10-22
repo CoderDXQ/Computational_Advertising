@@ -180,3 +180,10 @@ CPA（Cost per action）：每次动作收费，此处的动作一般定义为�
 
 ![image-20201022121940781](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201022121940781.png)
 
+### 供给方平台动态分配决策过程
+
+![image-20201022205713086](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201022205713086.png)
+
+### 三方数据示意
+
+![image-20201022215540311](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201022215540311.png)
