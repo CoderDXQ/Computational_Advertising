@@ -2,7 +2,7 @@
 后向变现体系？？？
 广告产品的交易机制
 
-在线广告主要分为两类，品牌广告和效果广告。
+在线广告按照推广目的主要分为两类，品牌广告和效果广告。
 
 #### 互联网广告的高速发展主要是由于效果广告市场带来的巨大市场红利。
 #### 广告的根本目的是使广告主通过媒体以低成本达到与用户的接触。
@@ -127,7 +127,31 @@ CPA（Cost per action）：每次动作收费，此处的动作一般定义为�
 3. 横幅与插屏是移动展示广告最主要的形式，售卖方式主要是竞价。开屏主要作为品牌广告，售卖方式主要是合约，溢价比较高。
 4. 原生广告能够大幅度提高转化收益，但是难以规模化运营。
 
+## 在线广告产品实践
 
+1. 互联网主要有三种资产可以变现：数据、流量和品牌属性。
+2. 媒体在投放广告主广告时，必须重视所投放广告的质量。坚持利用高质量的广告进行变现有利于媒体长期保持和提升自己的品牌价值，从而在优先销售的广告上获得持久的、更高的广告溢价。
+3. 在移动互联和广告实效化充分发展的今天，我们建议媒体首先要考虑的变现方式是原生广告。
+
+## 计算广告关键技术
+
+1. 分布式计算平台与流计算平台结合，大数据来源是日志。
+2. 广告投放机，最重要的指标是每秒查询数和广告决策的延迟。一般先用倒排索引从大量广告中找到少量候选广告（广告检索），再使用更精确的排序方法找到综合收益最高的若干个广告（广告排序）。倒排索引技术是广告检索的基础，同时也是大规模计算广告系统的基础。广告排序是在线高效地计算广告的eCPM并进行排序。
+3. 在线行为反馈，把系统信息反馈调整做得更快比把模型预测做得更准确效果更加显著。原因是广告展示延迟的增加往往会带来广告效果的明显下降。
+4. 商业智能系统，即BI系统。其实就是人为干预广告投放决策的系统。
+5. 计算广告系统用到的不错的开源组件：Nginx fastCGI Zookeeper Thrift
+
+## 基础知识准备
+
+1. 
+
+
+
+
+
+## 大图
+
+![preview](https://pic3.zhimg.com/7baf9e396cb4630d309abc941eaace1b_r.jpg?source=1940ef5c)
 
 ### 广告由物理展示到转化行为的过程
 
@@ -194,3 +218,27 @@ CPA（Cost per action）：每次动作收费，此处的动作一般定义为�
 ### 三方数据示意
 
 ![image-20201022215540311](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201022215540311.png)
+
+### 媒体利用广告变现的决策示意图——根据自身情况选择变现方式和渠道
+
+![image-20201024112931511](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201024112931511.png)
+
+### 广告主在线营销决策过程示意图
+
+![image-20201024114752272](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201024114752272.png)
+
+### 数据提供方变现决策过程示意
+
+![image-20201024120108022](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201024120108022.png)
+
+### 个性化系统的一般框架
+
+![个性化系统的一般框架](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201111165903862.png)
+
+### 在线广告系统一般性架构示意
+
+![image-20201111170839202](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201111170839202.png)
+
+### 计算广告系统用到的开源工具示意
+
+![image-20201111174417660](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201111174417660.png)
