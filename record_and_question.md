@@ -7,6 +7,8 @@
 #### 互联网广告的高速发展主要是由于效果广告市场带来的巨大市场红利。
 #### 广告的根本目的是使广告主通过媒体以低成本达到与用户的接触。
 
+**计算广告中大部分的问题都是优化和分配问题，尤其是带约束的优化问题。**
+
 流量变现也要追求高溢价。
 
 
@@ -143,7 +145,45 @@ CPA（Cost per action）：每次动作收费，此处的动作一般定义为�
 
 ## 基础知识准备
 
-1. 
+1. 搜索引擎的基本方法。倒排索引：可以实现与文档集大小基本无关的检索复杂度。向量空间模型（VSM）：文档相似度度量方法。
+
+## 合约广告核心技术
+
+1. 广告排期系统：	前端的广告代码无法从CDN拿到CPT广告时展示一个防天窗广告，一般是一个默认广告。
+2. 担保式投送系统：流量预测 频次控制
+3. 在线分配：分配算法的极限性能和实用优化算法
+
+## 受众定向核心技术
+
+1. 用户标签 上下文标签 定制化标签
+2. 上下文定向：半在线抓取系统 文本主题挖掘 
+3. 行为定向
+
+## 竞价广告核心技术
+
+1. 计价算法
+2. 搜索广告系统：查询扩展 广告放置
+3. 推荐算法：协同过滤 主题模型 历史效果
+4. 广告网络：实时反作弊 实时计费 短时用户标签 短时动态特征
+5. 广告检索：布尔表达式的检索 相关性检索 
+6. 点击率预测
+
+## 程序化交易核心技术
+
+1. 带宽和服务成本
+2. 广告交易平台：询价优化
+3. 需求方平台：定制化用户标签 点击率预测 点击价值估计（到达率 转化率 转化单价）出价策略（第二高价）
+4. 供给方平台：网络优化（分配网络的优化）
+
+## 其他广告相关技术
+
+反作弊  线上实验 度量 创意优化 隐私保护 去匿名化 程序化创意 点击热力图 
+
+1. 创意优化：程序化创意 点击热力图 
+2. 实验框架：发布层 实验层 灰度
+3. 流量保护和效果监测：反爬虫 反作弊 流量劫持 广告安全 隐私保护  数据安全 权限的严格分配和最小数据访问原则 
+
+
 
 
 
@@ -242,3 +282,40 @@ CPA（Cost per action）：每次动作收费，此处的动作一般定义为�
 ### 计算广告系统用到的开源工具示意
 
 ![image-20201111174417660](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201111174417660.png)
+
+### 排期与动态广告混合投放决策逻辑
+
+![image-20201218150426933](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201218150426933.png)
+
+### 担保式投送广告系统架构示意
+
+![image-20201218150755681](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201218150755681.png)
+
+### 空间中的标签示意
+
+![image-20201218165628640](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201218165628640.png)
+
+### 各类行为标签化方法示意
+
+![image-20201218165456634](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201218165456634.png)
+
+### 数据管理平台（DMP）系统架构示意
+
+![image-20201218170313960](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201218170313960.png)
+
+
+
+
+
+## 主要术语及缩写
+
+![image-20201218233921488](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201218233921488.png)
+
+![image-20201218233934929](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201218233934929.png)
+
+![image-20201218233948409](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201218233948409.png)
+
+![image-20201218234018040](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201218234018040.png)
+
+![image-20201218234034755](/Users/duanxiangqing/Library/Application Support/typora-user-images/image-20201218234034755.png)
+
